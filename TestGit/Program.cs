@@ -14,6 +14,7 @@ namespace TestGit
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
             Console.WriteLine("Hello World!");
             Console.WriteLine("I'm haiau212006");
+            Console.WriteLine("I'm haiau212006 1");
 
             Console.ReadKey();
 
