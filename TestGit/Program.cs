@@ -15,8 +15,6 @@ namespace TestGit
             Console.WriteLine("Hello World!");
             Console.WriteLine("I'm haiau212006");
             Console.WriteLine("I'm haiau212007");
-            Console.WriteLine("I'm haiau212008");
-            Console.WriteLine("I'm haiau212009");
 
             
             Console.WriteLine("hahahahah");
