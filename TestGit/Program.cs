@@ -14,9 +14,6 @@ namespace TestGit
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
             Console.WriteLine("Hello World!");
             Console.WriteLine("I'm haiau212006");
-            Console.WriteLine("I'm haiau212006 1");
-            Console.WriteLine("I'm haiau212006 2");
-
             Console.ReadKey();
 
             // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
