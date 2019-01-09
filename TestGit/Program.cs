@@ -18,11 +18,11 @@ namespace TestGit
 
             // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
         }
+    }
 
-        public class Studentss
-        {
-            public int Id { get; set; }
-            public string Name { get; set; }
-        }
+    public class Studentss
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
