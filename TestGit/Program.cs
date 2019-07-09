@@ -20,6 +20,7 @@ namespace TestGit
             Console.WriteLine("hahahahah");
             Console.WriteLine("hehehehe");
             Console.WriteLine("hohohohoho");
+            Console.WriteLine("zzzzzzzzz");
             Console.ReadKey();
 
             // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
