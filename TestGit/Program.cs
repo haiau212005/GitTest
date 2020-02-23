@@ -17,9 +17,22 @@ namespace TestGit
             Console.WriteLine("I'm haiau212007");
             Console.WriteLine("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
             Console.WriteLine("AnhTH");
+            Console.WriteLine("Conflict ne");
             Console.ReadKey();
 
             // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
         }
+    }
+
+    public class User
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+    }
+
+    public class Car
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
