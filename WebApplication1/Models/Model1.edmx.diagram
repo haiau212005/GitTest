@@ -7,7 +7,6 @@
       <Diagram DiagramId="edf2991c2a1a43a29754db6eed7e2de5" Name="Diagram1">
         <EntityTypeShape EntityType="HAHAModel.Account" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="HAHAModel.Student" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="HAHAModel.Table_1" Width="1.5" PointX="0.75" PointY="3.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
