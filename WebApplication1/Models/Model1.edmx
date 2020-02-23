@@ -29,10 +29,18 @@
           <Property Name="id" Type="int" Nullable="false" />
           <Property Name="nam" Type="nvarchar" MaxLength="50" />
         </EntityType>
+        <EntityType Name="Table_2">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="50" />
+        </EntityType>
         <EntityContainer Name="HAHAModelStoreContainer">
           <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Table_1" EntityType="Self.Table_1" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Table_2" EntityType="Self.Table_2" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -59,6 +67,7 @@
           <EntitySet Name="Accounts" EntityType="Self.Account" />
           <EntitySet Name="Students" EntityType="Self.Student" />
           <EntitySet Name="Table_1" EntityType="HAHAModel.Table_1" />
+          <EntitySet Name="Table_2" EntityType="HAHAModel.Table_2" />
         </EntityContainer>
         <EntityType Name="Table_1">
           <Key>
@@ -66,6 +75,13 @@
           </Key>
           <Property Name="id" Type="Int32" Nullable="false" />
           <Property Name="nam" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Table_2">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -96,6 +112,14 @@
             <EntityTypeMapping TypeName="HAHAModel.Table_1">
               <MappingFragment StoreEntitySet="Table_1">
                 <ScalarProperty Name="nam" ColumnName="nam" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Table_2">
+            <EntityTypeMapping TypeName="HAHAModel.Table_2">
+              <MappingFragment StoreEntitySet="Table_2">
+                <ScalarProperty Name="name" ColumnName="name" />
                 <ScalarProperty Name="id" ColumnName="id" />
               </MappingFragment>
             </EntityTypeMapping>
