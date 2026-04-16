@@ -11,6 +11,8 @@ namespace WebApplication1.Controllers
         // GET: Admin
         public ActionResult Index()
         {
+            var z = "";
+            var y = "";
             return View();
         }
     }
